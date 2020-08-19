@@ -1,0 +1,12 @@
+body{
+    background-image: url("https://images6.alphacoders.com/456/thumb-1920-456959.jpg");
+
+}
+h1{
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(220, 240, 38);
+    text-align: center;
+    padding-top: 50px;
+}
