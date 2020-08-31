@@ -1,6 +1,7 @@
 body{
     background-image: url("https://images6.alphacoders.com/456/thumb-1920-456959.jpg");
 
+
 }
 h1{
     font-family: monospace;
@@ -10,6 +11,7 @@ h1{
     text-align: center;
     padding-top: 50px;
 }
+
 *{
     margin:0;
     padding:0;
@@ -136,3 +138,9 @@ text-transform: uppercase;
 .rotate{
     animation:rotate 4s infinite linear ;
 }
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }100%{
+        transform:rotate(360deg);
+    }
